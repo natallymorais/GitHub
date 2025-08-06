@@ -41,42 +41,43 @@
       </div>
     </nav>
   </header>
-  <main>
-    <div id="banner">
-      <div id="boasVindas">
-        <h1>SEJA BEM VINDO AO BANCO 90</h1>
+  <main class="pt-3">
+    <div id="banner" class="text-black w-100 d-flex align-items-center">
+      <div id="boasVindas" class="p-4 align-items-center">
+        <h1 class="text-center fw-bolder">SEJA BEM VINDO AO BANCO 90</h1>
         <p>Aqui você encontra o melhor serviço de atendimento do Brasil.</p>
-        <a href="#"><button>Faça sua conta agora!</button></a>
+        <a href="#"><button class="text-light rounded p-2">Faça sua conta agora!</button></a>
       </div>
     </div>
 
     <div id="titulo">
-      <h1>ESCOLHA SUA FORMA DE PAGAMENTO PREFERIDA</h1>
+      <h2 class="text-center p-4 fw-bolder">ESCOLHA SUA FORMA DE PAGAMENTO PREFERIDA</h2>
     </div>
 
-    <div id="formasPagamentos">
-      <div class="pagamentos">
-        <img src="banco90/images/codigoDeBarras.svg" alt="codigo de barras">
-        <p>BOLETO</p>
+    <div id="formasPagamentos" class="d-flex justify-content-center w-100">
+      <div class="pagamentos rounded-1 d-flex flex-column align-items-center justify-content-center p-3 m-2">
+        <img class="mb-3" src="banco90/images/codigoDeBarras.svg" alt="codigo de barras">
+        <p class="fw-bolder">BOLETO</p>
       </div>
 
-      <div class="pagamentos">
-        <img src="banco90/images/CartaoDeCredito.svg" alt="Cartao De Credito">
-        <p>CARTÃO</p>
+      <div class="pagamentos rounded-1 d-flex flex-column align-items-center justify-content-center m-2">
+        <img class="mb-3" src="banco90/images/CartaoDeCredito.svg" alt="Cartao De Credito">
+        <p class="fw-bolder">CARTÃO</p>
       </div>
 
-      <div class="pagamentos">
-        <img src="banco90/images/Dinheiro.svg" alt="Dinheiro">
-        <P>DINHEIRO</P>
+      <div class="pagamentos rounded-1 d-flex flex-column align-items-center justify-content-center p-3 m-2">
+        <img class="mb-3" src="banco90/images/Dinheiro.svg" alt="Dinheiro">
+        <P class="fw-bolder">DINHEIRO</P>
       </div>
+
 
     </div>
 
 
     <!-- meio -->
-    <div id="meio">
-      <div id="texto">
-        <h1>CONTATE NOSSOS SERVIÇOS</h1>
+    <div id="meio" class="d-flex justify-content-between align-items-center mb-2 w-100 ">
+      <div id="texto" class="card-text text-light p-3 w-50">
+        <h1 class="ps-3 fw-bolder ">CONTATE NOSSOS SERVIÇOS</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam cum dicta tenetur eos vitae! Aspernatur
           omnis, inventore molestias, iste fugiat natus laborum culpa perspiciatis dolor quo possimus, illum ut nihil.
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda voluptas mollitia sit sint eveniet eum,
@@ -84,17 +85,17 @@
           similique perferendis!</p>
       </div>
 
-      <div id="img">
-        <img src="banco90/images/bannerBeneficios.jpg"
+      <div id="img" class="w-50 ">
+        <img class="w-100 rounded-start" src="banco90/images/bannerBeneficios.jpg"
           alt="Imagem de uma pessoa fazendo o pagamento por uma cervaja com cartão de crédito.">
       </div>
     </div>
 
     <!--  -->
-    <div id="titulo">
-      <h1>SEJA CLIENTE DE DIVERSAR MANEIRAS!</h1>
+    <div id="titulo" class="d-flex justify-content-center p-3">
+      <h2 class="fw-bolder">SEJA CLIENTE DE DIVERSAR MANEIRAS!</h2>
     </div>
-    <div id="cartoes">
+    <div id="cartoes" class="d-flex justify-content-center">
       <div class="cartao">
         <img src="banco90/images/cartaoUm.jpg" alt="">
       </div>
@@ -108,13 +109,52 @@
 
 
 
-    <div id="tabela">
-
+    <div id="tabela" class="shadow p-3 bg-body-tertiary rounded m-3 mt-5 ">
+      <table class="table text-center">
+        <h2 class="fw-bolder">Horários de atendimento</h2>
+        <thead>
+          <tr>
+            <th scope="col" class="bg-light"></th>
+            <th scope="col">Segunda</th>
+            <th scope="col">Terça</th>
+            <th scope="col">Quarta</th>
+            <th scope="col">Quinta</th>
+            <th scope="col">Sexta</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Marcelo</th>
+            <td>09:00 até as 13:00</td>
+            <td>08:00 até as 12:00</td>
+            <td>09:00 ate as 14:00</td>
+            <td>09:00 ate as 12:00</td>
+            <td>09:00 ate as 12:00</td>
+          </tr>
+          <tr>
+            <th scope="row">Daniela</th>
+            <td>09:00 até as 13:00</td>
+            <td>08:00 até as 12:00</td>
+            <td>09:00 ate as 14:00</td>
+            <td>09:00 ate as 12:00</td>
+            <td>09:00 ate as 12:00</td>
+          </tr>
+          <tr>
+            <th scope="row">João</th>
+            <td>09:00 até as 13:00</td>
+            <td>08:00 até as 12:00</td>
+            <td>09:00 ate as 14:00</td>
+            <td>09:00 ate as 12:00</td>
+            <td>09:00 ate as 12:00</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
+
   </main>
 
-  <footer>
-    <p>Todos os direitos reservados a bank 90!</p>
+  <footer class="text-center text-light p-1">
+    <p>Todos os direitos reservados a Bank 90!</p>
   </footer>
 
 
